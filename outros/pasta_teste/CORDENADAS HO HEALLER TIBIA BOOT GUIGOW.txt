@@ -1,0 +1,52 @@
+anotaçoes do boot 
+
+==========================================================
+                   REFERENCIA
+               ABAIXO DO MINI MAPA
+box_hp = Box(left=1766, top=142, width=94, height=11) hp
+y = 147 hp
+box_mp = Box(left=1766, top=155, width=94, height=11) mana
+y = 60 mp
+==========================================================
+         acima do mini mapa em 1920px
+hp = Box(left=1765, top=27, width=94, height=11)
+y = 32 hp
+mp = Box(left=1765, top=40, width=94, height=11)
+y = 45 mp
+==========================================================
+             abaixo do mini mapa em 1920p
+hp Box(left=1765, top=142, width=94, height=11) hp
+y = 147 hp
+mp Box(left=1765, top=155, width=94, height=11) mp
+y = 160 mp
+=========================================================
+                 abaixo do set EM 1920P
+hp Box(left=1765, top=303, width=94, height=11)hp
+y = 308
+mp Box(left=1765, top=316, width=94, height=11)mp
+y = 321 mp
+==========================================================
+
+HP E MP começan em X = 1766 ate x = 1860 
+[  0% = x 1766] + 2
+[10% = x 1774]
+[20% = x 1783]
+[30% = x 1792]
+[40% = x 1801]
+[50% = x 1810]
+[60% = x 1819]
+[70% = x 1828]
+[80% = x 1837]
+[90% = x 1846]
+[100% = x 1860] - 2
+
+===========================================
+OBS: DE 1920*1080 PARA 1280*720
+BASTA DIMINUIR 640 NA POSIÇÃO X 
+
+posição y vai ser +6 para mp
+posição y vai ser -7 para hp
+         
+       147  hp
+154
+       160 mp
